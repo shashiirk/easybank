@@ -7,3 +7,39 @@
 .btn {
   @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold;
 }
+
+.screen {
+  min-height: calc(100vh - 72px);
+}
+
+.feature-card img {
+  @apply block m-auto sm:m-0;
+}
+
+.feature-card h3 {
+  @apply text-2xl text-darkBlue my-6;
+}
+
+.feature-card p {
+  @apply text-gray-400;
+}
+
+.article-card {
+  @apply bg-white rounded-md overflow-hidden shadow;
+}
+
+.article-card div {
+  @apply p-6;
+}
+
+.article-card div span {
+  @apply text-gray-400 text-xs;
+}
+
+.article-card div h3 {
+  @apply text-lg text-darkBlue my-3 leading-tight;
+}
+
+.article-card div p {
+  @apply text-gray-400 text-sm;
+}
