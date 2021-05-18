@@ -32908,6 +32908,11 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.box {
+  box-shadow: -80px 0 80px rgba(0, 0, 0, 0.25), 80px 0 80px rgba(0, 0, 0, 0.25),
+    0 80px 80px rgba(0, 0, 0, 0.25);
+}
+
 .screen {
   min-height: calc(100vh - 72px);
 }
@@ -32972,6 +32977,10 @@ video {
   line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.box-none {
+  box-shadow: none;
 }
 
 @media (min-width: 640px){
@@ -65142,6 +65151,10 @@ video {
 
   .sm\:backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .sm\:box-none {
+    box-shadow: none;
   }
 }
 
@@ -97314,6 +97327,10 @@ video {
   .md\:backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .md\:box-none {
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 1024px){
@@ -129484,6 +129501,10 @@ video {
 
   .lg\:backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .lg\:box-none {
+    box-shadow: none;
   }
 }
 
@@ -161656,6 +161677,10 @@ video {
   .xl\:backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .xl\:box-none {
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 1536px){
@@ -193826,5 +193851,9 @@ video {
 
   .\32xl\:backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .\32xl\:box-none {
+    box-shadow: none;
   }
 }

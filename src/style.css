@@ -8,6 +8,11 @@
   @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold;
 }
 
+.box {
+  box-shadow: -80px 0 80px rgba(0, 0, 0, 0.25), 80px 0 80px rgba(0, 0, 0, 0.25),
+    0 80px 80px rgba(0, 0, 0, 0.25);
+}
+
 .screen {
   min-height: calc(100vh - 72px);
 }
@@ -42,4 +47,10 @@
 
 .article-card div p {
   @apply text-gray-400 text-sm;
+}
+
+@variants responsive {
+  .box-none {
+    box-shadow: none;
+  }
 }

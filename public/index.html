@@ -13,21 +13,66 @@
     <title>Easybank landing page</title>
   </head>
   <body class="font-main overflow-x-hidden">
-    <header class="bg-white relative z-30">
+    <header class="bg-white relative z-40">
       <nav
         class="flex justify-between items-center max-w-6xl w-full m-auto px-4"
       >
-        <div>
-          <img src="images/logo.svg" alt="easybank" />
+        <div class="py-6 sm:py-0">
+          <img class="block" src="images/logo.svg" alt="easybank" />
         </div>
-        <div class="flex font-medium text-gray-400">
-          <div><a class="block mx-4 py-6" href="#">Home</a></div>
-          <div><a class="block mx-4 py-6" href="#">About</a></div>
-          <div><a class="block mx-4 py-6" href="#">Contact</a></div>
-          <div><a class="block mx-4 py-6" href="#">Blog</a></div>
-          <div><a class="block mx-4 py-6" href="#">Careers</a></div>
+        <div class="cursor-pointer sm:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
         </div>
-        <div>
+        <div
+          class="
+            bg-white
+            absolute
+            top-20
+            left-0
+            right-0
+            py-4
+            max-w-md
+            w-11/12
+            m-auto
+            rounded-md
+            flex flex-col
+            items-center
+            font-medium
+            text-gray-800
+            box
+            sm:text-gray-400
+            sm:static
+            sm:bg-transparent
+            sm:flex-row
+            sm:py-0
+            sm:rounded-none
+            sm:max-w-min
+            sm:m-0
+            sm:box-none
+          "
+        >
+          <div><a class="block mx-4 py-2 sm:py-6" href="#">Home</a></div>
+          <div><a class="block mx-4 py-2 sm:py-6" href="#">About</a></div>
+          <div><a class="block mx-4 py-2 sm:py-6" href="#">Contact</a></div>
+          <div><a class="block mx-4 py-2 sm:py-6" href="#">Blog</a></div>
+          <div>
+            <a class="block ml-3 mr-4 py-2 sm:py-6" href="#">Careers</a>
+          </div>
+        </div>
+        <div class="hidden md:block">
           <button type="button" class="btn">Request Invite</button>
         </div>
       </nav>
