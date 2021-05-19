@@ -2,14 +2,18 @@
   "name": "easybank",
   "version": "1.0.0",
   "description": "A landing page design concept for bank",
-  "main": "index.js",
   "scripts": {
-    "build-css": "tailwind build src/style.css -o public/style.css"
+    "build": "tailwind build src/style.css -o public/style.css",
+    "prod": "NODE_ENV=production tailwind build src/style.css -o public/style.css",
+    "predeploy": "npm run prod",
+    "deploy": "gh-pages -d public"
   },
   "author": "Shashikanth Reddy",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.2.5",
-    "tailwindcss": "^2.1.2"
+    "gh-pages": "^3.1.0",
+    "tailwindcss": "^2.1.2",
+    "win-node-env": "^0.4.0"
   }
 }
