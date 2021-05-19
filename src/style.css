@@ -4,8 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .btn {
-  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold;
+  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold border-0 focus:outline-none sm:transition sm:duration-300 sm:hover:opacity-70;
+}
+
+.nav-item {
+  @apply sm:transition sm:duration-300 sm:border-b-4 sm:border-transparent sm:hover:text-gray-800 sm:hover:border-limeGreen;
+}
+
+.footer-item,
+.article-item {
+  @apply sm:transition sm:duration-300  sm:hover:text-limeGreen;
 }
 
 .box {
