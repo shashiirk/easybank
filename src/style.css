@@ -66,4 +66,12 @@ html {
   .box-none {
     box-shadow: none;
   }
+
+  .bg-sm {
+    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+  }
+
+  .bg-md {
+    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+  }
 }
