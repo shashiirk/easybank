@@ -1061,11 +1061,12 @@ html {
 }
 
 .bg-sm {
-  background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+  background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
 }
 
 .bg-md {
-  background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+  background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
 }
 
 @media (min-width: 640px){
@@ -1143,11 +1144,12 @@ html {
   }
 
   .sm\:bg-sm {
-    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+    background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
   }
 
   .sm\:bg-md {
-    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+    background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
   }
 }
 
@@ -1216,11 +1218,12 @@ html {
   }
 
   .md\:bg-sm {
-    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+    background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
   }
 
   .md\:bg-md {
-    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+    background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
   }
 }
 
@@ -1242,11 +1245,12 @@ html {
   }
 
   .lg\:bg-sm {
-    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+    background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
   }
 
   .lg\:bg-md {
-    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+    background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
   }
 }
 
@@ -1256,11 +1260,12 @@ html {
   }
 
   .xl\:bg-sm {
-    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+    background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
   }
 
   .xl\:bg-md {
-    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+    background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
   }
 }
 
@@ -1270,10 +1275,11 @@ html {
   }
 
   .\32xl\:bg-sm {
-    background: url(images/bg-intro-mobile.svg) no-repeat left top -25% / contain;
+    background: #fafafa url(images/bg-intro-mobile.svg) no-repeat left top -25% /
+      contain;
   }
 
   .\32xl\:bg-md {
-    background: url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
+    background: #fafafa url(images/bg-intro-desktop.svg) no-repeat 40vw -40vh;
   }
 }
