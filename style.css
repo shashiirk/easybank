@@ -631,6 +631,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-3{
   margin-left: 0.75rem;
 }
@@ -651,8 +656,8 @@ video {
   margin-bottom: 4rem;
 }
 
-.-mt-48{
-  margin-top: -12rem;
+.-mt-36{
+  margin-top: -9rem;
 }
 
 .max-w-md{
@@ -990,10 +995,6 @@ html {
     0 80px 80px rgba(0, 0, 0, 0.25);
 }
 
-.screen {
-  min-height: calc(100vh - 72px);
-}
-
 .feature-card img {
   display: block;
   margin: auto;
@@ -1094,10 +1095,6 @@ html {
     margin: 0px;
   }
 
-  .sm\:-mt-56{
-    margin-top: -14rem;
-  }
-
   .sm\:max-w-min{
     max-width: -webkit-min-content;
     max-width: -moz-min-content;
@@ -1174,13 +1171,19 @@ html {
     justify-content: space-between;
   }
 
-  .md\:m-0{
-    margin: 0px;
-  }
-
   .md\:my-0{
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:my-28{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
   }
 
   .md\:px-0{
