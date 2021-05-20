@@ -676,6 +676,10 @@ video {
   overflow-x: hidden;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -774,6 +778,11 @@ video {
 .text-darkBlue{
   --tw-text-opacity: 1;
   color: rgba(45, 49, 77, var(--tw-text-opacity));
+}
+
+.text-limeGreen{
+  --tw-text-opacity: 1;
+  color: rgba(49, 211, 92, var(--tw-text-opacity));
 }
 
 .w-6{
@@ -967,6 +976,12 @@ html {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
     transition-duration: 300ms;
+  }
+}
+
+@media (min-width: 640px){
+  .credit-item:hover{
+    text-decoration: underline;
   }
 }
 
