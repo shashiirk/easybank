@@ -4,7 +4,7 @@ A landing page design concept for bank. It has an amazing UI/UX and also is full
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/118915127-06ef5a00-b94a-11eb-96d6-63ddb1fd70be.gif)
+![preview](https://user-images.githubusercontent.com/48406108/118921732-4d4ab600-b956-11eb-980a-93825b2f3ef7.gif)
 
 ## Live Demo
 
