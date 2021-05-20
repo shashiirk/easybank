@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A landing page design concept for bank",
   "scripts": {
+    "dev": "npx live-server public",
     "build": "postcss src/style.css -o public/style.css",
     "prod": "NODE_ENV=production postcss src/style.css -o public/style.css",
     "predeploy": "npm run prod",
