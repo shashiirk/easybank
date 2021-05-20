@@ -24,10 +24,22 @@ Install all the dependencies
 $ npm install
 ```
 
-Start the application
+Open the application in live-server
 
 ```
 $ npm run dev
+```
+
+Enter build mode (This command also has to be run whenever changes were made in `src/style.css` or `tailwind.config.js`)
+
+```
+$ npm run build
+```
+
+Build Production code (When your code is ready to be deployed)
+
+```
+$ npm run prod
 ```
 
 ## Tools
