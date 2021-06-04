@@ -10,7 +10,7 @@ A landing page design concept for bank. It has an amazing UI/UX and also is full
 
 See it live [here](https://shashiirk.github.io/easybank).
 
-## Get Started
+## Installation
 
 Clone this repository to your local machine
 
