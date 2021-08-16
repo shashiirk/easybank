@@ -9,20 +9,20 @@ html {
 }
 
 .btn {
-  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold border-0 focus:outline-none sm:transition sm:duration-300 sm:hover:opacity-70;
+  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold border-0 hover-hover:hover:opacity-70 hover-hover:transition hover-hover:duration-300 hover-none:active:opacity-70;
 }
 
 .nav-item {
-  @apply sm:transition sm:duration-300 sm:border-b-4 sm:border-transparent sm:hover:text-gray-800 sm:hover:border-limeGreen;
+  @apply hover-hover:transition hover-hover:duration-300 sm:border-b-4 sm:border-transparent sm:hover:text-gray-800 sm:hover:border-limeGreen active:text-limeGreen;
 }
 
 .footer-item,
 .article-item {
-  @apply sm:transition sm:duration-300  sm:hover:text-limeGreen;
+  @apply hover-hover:transition hover-hover:duration-300 hover-hover:hover:text-limeGreen hover-none:active:text-limeGreen;
 }
 
 .credit-item {
-  @apply sm:hover:underline;
+  @apply hover-hover:hover:underline hover-none:active:underline;
 }
 
 .box {
@@ -43,7 +43,7 @@ html {
 }
 
 .article-card {
-  @apply bg-white rounded-md overflow-hidden shadow;
+  @apply bg-white rounded-md overflow-hidden;
 }
 
 .article-card div {

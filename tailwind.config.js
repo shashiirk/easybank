@@ -14,10 +14,18 @@ module.exports = {
       fontFamily: {
         main: ['Public Sans', 'sans-serif'],
       },
+      screens: {
+        'hover-hover': { raw: '(hover: hover)' },
+        'hover-none': { raw: '(hover: none)' },
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      textColor: ['active'],
+      textDecoration: ['active'],
+      opacity: ['active'],
+    },
   },
   plugins: [],
 };
