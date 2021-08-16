@@ -1,4 +1,4 @@
-# Foodspace
+# Easy Bank
 
 A landing page design concept for bank. It has an amazing UI/UX and also is fully responsive.
 
