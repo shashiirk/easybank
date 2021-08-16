@@ -9,7 +9,7 @@ html {
 }
 
 .btn {
-  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold border-0 hover-hover:hover:opacity-70 hover-hover:transition hover-hover:duration-300 hover-none:active:opacity-70;
+  @apply py-3 px-9 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-white font-semibold border-0 hover-hover:hover:opacity-70 hover-hover:transition hover-hover:duration-300 hover-none:active:opacity-70 outline-none;
 }
 
 .nav-item {
