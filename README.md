@@ -1,4 +1,13 @@
-# Easy Bank
+<p align="center">
+  <a href="https://shashiirk.github.io/easybank">
+    <img alt="logo" src="public/favicon/logo.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Easy Bank
+</h1>
+
+## Description
 
 A landing page design concept for bank. It has an amazing UI/UX and also is fully responsive.
 
