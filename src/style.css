@@ -43,7 +43,7 @@ html {
 }
 
 .article-card {
-  @apply bg-white rounded-md overflow-hidden;
+  @apply bg-white rounded-md shadow overflow-hidden;
 }
 
 .article-card div {
